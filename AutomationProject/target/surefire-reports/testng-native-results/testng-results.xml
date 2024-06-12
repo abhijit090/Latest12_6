@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-27T11:45:01 IST" name="Surefire suite" finished-at="2024-03-27T11:45:47 IST" duration-ms="46405">
+    <groups>
+      <group name="Login Page">
+        <method signature="TestMavenProject2.logincredentials()[pri:2, instance:AutomationProject.AutomationProject.TestMavenProject2@366647c2]" name="logincredentials" class="AutomationProject.AutomationProject.TestMavenProject2"/>
+      </group> <!-- Login Page -->
+      <group name="Data">
+        <method signature="TestMavenProject2.Testdata()[pri:3, instance:AutomationProject.AutomationProject.TestMavenProject2@366647c2]" name="Testdata" class="AutomationProject.AutomationProject.TestMavenProject2"/>
+      </group> <!-- Data -->
+      <group name="Page Title">
+        <method signature="TestMavenProject2.cttProject()[pri:1, instance:AutomationProject.AutomationProject.TestMavenProject2@366647c2]" name="cttProject" class="AutomationProject.AutomationProject.TestMavenProject2"/>
+      </group> <!-- Page Title -->
+    </groups>
+    <test started-at="2024-03-27T11:45:01 IST" name="Surefire test" finished-at="2024-03-27T11:45:47 IST" duration-ms="46405">
+      <class name="com.ctt.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ctt.qa.testcases.HomePageTest@58695725]" started-at="2024-03-27T11:44:45 IST" name="setup" finished-at="2024-03-27T11:44:53 IST" duration-ms="8039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="titleTest()[pri:1, instance:com.ctt.qa.testcases.HomePageTest@58695725]" started-at="2024-03-27T11:45:39 IST" name="titleTest" finished-at="2024-03-27T11:45:39 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method signature="VerifyclickOnuserButton()[pri:2, instance:com.ctt.qa.testcases.HomePageTest@58695725]" started-at="2024-03-27T11:45:39 IST" name="VerifyclickOnuserButton" finished-at="2024-03-27T11:45:39 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyclickOnuserButton -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ctt.qa.testcases.HomePageTest@58695725]" started-at="2024-03-27T11:45:47 IST" name="closeBrowser" finished-at="2024-03-27T11:45:48 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ctt.qa.testcases.HomePageTest -->
+      <class name="com.ctt.qa.testcases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ctt.qa.testcases.LoginTest@543588e6]" started-at="2024-03-27T11:44:53 IST" name="setup" finished-at="2024-03-27T11:45:01 IST" duration-ms="7428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="titleTest()[pri:1, instance:com.ctt.qa.testcases.LoginTest@543588e6]" started-at="2024-03-27T11:45:39 IST" name="titleTest" finished-at="2024-03-27T11:45:39 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method signature="loginData()[pri:2, instance:com.ctt.qa.testcases.LoginTest@543588e6]" started-at="2024-03-27T11:45:39 IST" name="loginData" finished-at="2024-03-27T11:45:39 IST" duration-ms="552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginData -->
+        <test-method signature="testUserName()[pri:3, instance:com.ctt.qa.testcases.LoginTest@543588e6]" started-at="2024-03-27T11:45:39 IST" name="testUserName" finished-at="2024-03-27T11:45:47 IST" duration-ms="8067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserName -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ctt.qa.testcases.LoginTest@543588e6]" started-at="2024-03-27T11:45:48 IST" name="closeBrowser" finished-at="2024-03-27T11:45:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ctt.qa.testcases.LoginTest -->
+      <class name="AutomationProject.AutomationProject.TestMavenProject2">
+        <test-method is-config="true" signature="appLaunch()[pri:0, instance:AutomationProject.AutomationProject.TestMavenProject2@366647c2]" started-at="2024-03-27T11:44:38 IST" name="appLaunch" finished-at="2024-03-27T11:44:45 IST" duration-ms="7899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appLaunch -->
+        <test-method signature="cttProject()[pri:1, instance:AutomationProject.AutomationProject.TestMavenProject2@366647c2]" started-at="2024-03-27T11:45:01 IST" name="cttProject" finished-at="2024-03-27T11:45:05 IST" duration-ms="4010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cttProject -->
+        <test-method signature="logincredentials()[pri:2, instance:AutomationProject.AutomationProject.TestMavenProject2@366647c2]" started-at="2024-03-27T11:45:05 IST" name="logincredentials" finished-at="2024-03-27T11:45:34 IST" depends-on-methods="AutomationProject.AutomationProject.TestMavenProject2.cttProject" duration-ms="29547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logincredentials -->
+        <test-method signature="Testdata()[pri:3, instance:AutomationProject.AutomationProject.TestMavenProject2@366647c2]" started-at="2024-03-27T11:45:34 IST" name="Testdata" finished-at="2024-03-27T11:45:39 IST" duration-ms="4080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testdata -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AutomationProject.AutomationProject.TestMavenProject2@366647c2]" started-at="2024-03-27T11:45:47 IST" name="closeBrowser" finished-at="2024-03-27T11:45:47 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- AutomationProject.AutomationProject.TestMavenProject2 -->
+      <class name="AutomationProject.AutomationProject.TestMavenProject">
+        <test-method signature="DataTest1()[pri:0, instance:AutomationProject.AutomationProject.TestMavenProject@740773a3]" started-at="2024-03-27T11:45:01 IST" name="DataTest1" finished-at="2024-03-27T11:45:01 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataTest1 -->
+        <test-method signature="DataTest2()[pri:0, instance:AutomationProject.AutomationProject.TestMavenProject@740773a3]" started-at="2024-03-27T11:45:01 IST" name="DataTest2" finished-at="2024-03-27T11:45:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataTest2 -->
+        <test-method signature="DataTest3()[pri:0, instance:AutomationProject.AutomationProject.TestMavenProject@740773a3]" started-at="2024-03-27T11:45:01 IST" name="DataTest3" finished-at="2024-03-27T11:45:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataTest3 -->
+        <test-method signature="DataTest4()[pri:0, instance:AutomationProject.AutomationProject.TestMavenProject@740773a3]" started-at="2024-03-27T11:45:01 IST" name="DataTest4" finished-at="2024-03-27T11:45:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataTest4 -->
+      </class> <!-- AutomationProject.AutomationProject.TestMavenProject -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

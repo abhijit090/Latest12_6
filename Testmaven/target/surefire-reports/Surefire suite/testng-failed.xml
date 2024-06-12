@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="TestDEmo.Testmaven.TestMavenProject3">
+        <methods>
+          <include name="DataTest2"/>
+          <include name="DataTest3"/>
+          <include name="DataTest1"/>
+          <include name="DataTest4"/>
+        </methods>
+      </class> <!-- TestDEmo.Testmaven.TestMavenProject3 -->
+      <class name="com.ctt.qa.testcases.LoginTest">
+        <methods>
+          <include name="loginData"/>
+          <include name="closeBrowser"/>
+          <include name="titleTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ctt.qa.testcases.LoginTest -->
+      <class name="TestDEmo.Testmaven.TestMavenProject2">
+        <methods>
+          <include name="Testdata"/>
+          <include name="closeBrowser"/>
+          <include name="logincredentials"/>
+          <include name="appLaunch"/>
+          <include name="cttProject"/>
+        </methods>
+      </class> <!-- TestDEmo.Testmaven.TestMavenProject2 -->
+      <class name="TestDEmo.Testmaven.TestMavenProject">
+        <methods>
+          <include name="DataTest4"/>
+          <include name="DataTest2"/>
+          <include name="DataTest3"/>
+          <include name="DataTest1"/>
+        </methods>
+      </class> <!-- TestDEmo.Testmaven.TestMavenProject -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="CTT_Demo.smoke_test_CTT">
+        <methods>
+          <include name="Navigate_To_The_Home_Menu_Check_AssignUser_menu"/>
+          <include name="Verify_the_node_status"/>
+          <include name="closeBrowser"/>
+          <include name="Remove_the_Node_and_Chek_Datafill_Percentage"/>
+          <include name="Verifyed_Hedaer_Tab_Attribute_SKU_AGGrid"/>
+          <include name="Validate_The_Pie_chart_Visbile_Or_Not"/>
+          <include name="Add_the_Text_JSONfile_to_the_Node_and_Chek_Datafill_Percentage"/>
+          <include name="Verify_Open_Old_Created_Project_and_Add_JSON_File_and_AssignNode1"/>
+          <include name="Navigate_To_The_Home_Menu_Check_History_menu"/>
+          <include name="Verified_Project_Overview_Chart"/>
+          <include name="Navigate_To_The_Home_Menu_Check_Comment_menu"/>
+          <include name="appLaunch"/>
+          <include name="Navigate_To_The_User_Menu"/>
+          <include name="open_Assigne_node_to_verify_Pichart_Functionality"/>
+          <include name="Verifyed_Search_Taxonomy"/>
+          <include name="Navigate_To_The_Project_Menu"/>
+          <include name="Open_Same_Project_Check_Header_Tab"/>
+          <include name="Verify_Login_Person_Name"/>
+        </methods>
+      </class> <!-- CTT_Demo.smoke_test_CTT -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
